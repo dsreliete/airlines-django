@@ -4,7 +4,6 @@ from django.urls import reverse
 
 from .models import Flight, Passenger
 
-# Create your views here.
 def index(request):
     context = {
         "flights": Flight.objects.all()
