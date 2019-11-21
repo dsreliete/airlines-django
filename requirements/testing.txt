@@ -1,3 +1,14 @@
--r base.txt
+certifi==2019.9.11
+chardet==3.0.4
 chromedriver==2.24.1
+colorama==0.4.1
+configparser==4.0.2
+crayons==0.3.0
+Django==2.2.7
+idna==2.8
+pytz==2019.3
+requests==2.22.0
 selenium==3.141.0
+sqlparse==0.3.0
+urllib3==1.25.7
+whitenoise==4.1.4
