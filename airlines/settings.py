@@ -31,8 +31,6 @@ def get_env_variable(var_name):
  
 SECRET_KEY = get_env_variable('SECRET_KEY')
 
-# SECRET_KEY = '$*$rx0^hnq5l-nfpp^8i$qy#u$5@g^*0sd#hlcuqy$^5)qk)un'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
