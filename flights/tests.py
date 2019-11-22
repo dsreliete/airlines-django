@@ -81,3 +81,6 @@ class FlightsTestCase(TestCase):
         response = c.get(f"/{f.id}")
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.context["non_passengers"].count(), 1)
+
+    def tearDown(self):
+        super().tearDown()
