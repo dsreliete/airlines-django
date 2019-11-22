@@ -14,9 +14,6 @@ import os, sys
 import dj_database_url
 
 from django.core.exceptions import ImproperlyConfigured
-
-import django_heroku
-django_heroku.settings(locals())
  
 def get_env_variable(var_name):
     try:
