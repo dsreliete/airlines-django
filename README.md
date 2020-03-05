@@ -34,4 +34,6 @@ Edit the postactivate file by adding:
 - export DJANGO_SETTINGS_MODULE="airlines.settings.development" or "...production" or "...testing"
 And so install requiremnets and run the app
 
+Font: http://www.marinamele.com/taskbuster-django-tutorial/settings-different-environments-version-control#environments-requirements
+
 
